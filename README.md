@@ -7,7 +7,7 @@
 * **Mursyidah binti Mat Jusoh** (162897)
 
 ## Project Overview
-This project implements a parallel image processing pipeline on a Google Cloud Platform (GCP) VM. The system applies five sequential filters (Grayscale, Gaussian Blur, Sobel Edge Detection, Sharpening, and Brightness Adjustment) to subsets of the Food-101 dataset. We compare the performance and scalability of two Python parallel paradigms.
+This project implements a parallel image processing pipeline on a Google Cloud Platform (GCP) VM. The system applies five sequential filters (Grayscale, Gaussian Blur, Sobel Edge Detection, Sharpening, and Brightness Adjustment) to subsets of the Food-101 dataset. We compare the performance and scalability of two Python parallel paradigms (multiprocessing module and concurrent.futures).
 
 ## Image Processing Pipeline
 The pipeline consists of the following steps:
