@@ -1,0 +1,7 @@
+data/
+output_*/
+cst435_env/
+__pycache__/
+*.zip
+*.jpg
+*.png
